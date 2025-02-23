@@ -70,7 +70,6 @@
 .grid_section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
     gap: 40px 20px;
     margin-block: 70px;
 }
@@ -92,8 +91,6 @@
     transform: scale(1.2);
 }
 
-
-
 .card_image {
     width: 100%;
     height: 100%;
@@ -105,6 +102,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .first_div {
@@ -124,7 +122,6 @@
 
 
 .heart_icon {
-    transition: .4s;
     color: var(--color);
     transition: .4s;
 }
@@ -149,8 +146,6 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0%;
-    /* color: var(--color); */
-
     transition: .2s ease;
 }
 
@@ -165,24 +160,22 @@
 
 .continue_button {
     display: block;
+    background-color: var(--bg_color);
     width: 179px;
     height: 40px;
     margin: auto;
     border: 1px solid var(--color);
     border-radius: var(--border_radius);
-    background-color: var(--bg_color);
     border: 0;
     transition: .4s ease;
 }
 
 .continue_button:hover {
     box-shadow: 0px 8px 2px 0 rgb(79, 71, 71);
-
     transform: translateY(-5px);
 }
 
 .continue_button_text {
-
     font-family: Arial;
     font-weight: 700;
     font-size: 12.7px;
