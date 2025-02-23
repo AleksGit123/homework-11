@@ -3,7 +3,7 @@
 .main-tag {
     width: min(100%, 1440px);
     margin: auto;
-
+    padding: 70px;
 }
 
 /* header */
@@ -149,7 +149,15 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0%;
-    color: var(--color);
+    /* color: var(--color); */
+
+    transition: .2s ease;
+}
+
+.card_article:hover .numbers {
+    font-weight: 600;
+    color: #2C6B3D;
+    font-size: 17px;
 }
 
 
@@ -163,7 +171,14 @@
     border: 1px solid var(--color);
     border-radius: var(--border_radius);
     background-color: var(--bg_color);
+    border: 0;
+    transition: .4s ease;
+}
 
+.continue_button:hover {
+    box-shadow: 0px 8px 2px 0 rgb(79, 71, 71);
+
+    transform: translateY(-5px);
 }
 
 .continue_button_text {
