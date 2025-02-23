@@ -1,0 +1,14 @@
+@media (max-width:620px) {
+    .main-tag {
+        padding: 20px;
+    }
+
+    /* grid-section */
+    .grid_section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card_article:nth-last-child(-n + 5) {
+        display: none;
+    }
+}
