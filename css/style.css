@@ -1,0 +1,7 @@
+@import url(variables.css);
+
+.main-tag {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
