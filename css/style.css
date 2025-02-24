@@ -4,18 +4,20 @@
     width: min(100%, 1440px);
     margin: auto;
     padding: 70px;
+
 }
 
 /* header */
 .index-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .popular {
     display: flex;
-    width: 110px;
-    height: 40px;
+    width: 126px;
+    height: 49px;
     align-items: center;
     justify-content: center;
     background-color: #FFFFFF;
